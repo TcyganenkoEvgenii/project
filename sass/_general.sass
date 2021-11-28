@@ -1,0 +1,174 @@
+
+  
+nav
+    
+
+header
+  position: relative
+
+.menu
+  display: flex
+  justify-content: space-between
+  padding: 13px 70px
+  margin: 0
+  list-style-type: none
+  height: 40px
+  background-color: rgb(0, 0, 0)
+
+  .link
+    color: azure
+    font-weight: 300
+
+  .item
+    border-right: 10px dotted azure
+    padding-right: 45px
+    &:last-child
+        border-right: none
+
+.subheader
+  position: absolute
+  width: 100%
+  background-color: rgba(0, 0, 0, 0.6)
+
+  .subheader_logo
+    display: block
+    margin-top: 16px
+    max-width: 100%
+
+  .subheader_text
+    margin-top: 6px
+    font-weight: 400
+    color: salmon
+
+  .subheader_call
+    margin-top: 16px
+    color: seashell
+
+  .phone
+    display: block
+    margin-top: 6px
+    color: seashell
+
+  .subheader_btn
+    margin-top: 16px
+    width: 172px
+    height: 46px
+    background-color: aqua
+    color: seashell
+    font-weight: 600
+    border-radius: 4px
+    +btn_hover
+    
+    
+
+.promo
+  min-height: 800px
+  background-color: rgb(185, 86, 86)
+  padding: 150px 0 150px 0
+
+  .promo_header
+    color: silver
+    font-size: 36px
+    font-weight: 700
+    margin: 0
+    text-align: center
+
+.hw
+  padding: 50px 0
+  min-height: 800px
+  background-color: blue
+
+  .hw_text
+    margin-top: 20px
+    text-align: center
+
+  .hw_btn
+    display: block
+    margin: 0 auto
+
+  .hw_round
+    height: 150px
+    width: 150px
+    border-radius: 100%
+    background-color: rgb(255, 196, 0)
+    display: flex
+    justify-content: center
+    align-items: center
+
+  .hw_block
+    margin-top: 36px
+    display: flex
+    justify-content: center
+
+    
+.mobile
+  min-height: 864px
+  padding: 48px 0 79px 0
+  background-color: #419e87
+  .row
+    margin-top: 32px
+
+  .label
+      margin: 0 auto
+      
+      height: 24px
+      width: 112px
+      background-color: black
+      color: white
+      text-align: center
+  .title
+    text-align: center
+  .subtitle
+    text-align: center
+
+  &_item
+    position: relative
+    height: 320px
+    width: 320px
+    margin: 0 auto
+    background-color: #fff
+    margin-bottom: 19px
+    .subtitle
+      margin-top: 36px
+      line-height: 31px
+      text-align: center
+      font-size: 24px
+  
+    .plus
+      display: flex
+      justify-content: center
+      align-items: center
+      position: absolute
+      bottom: 35px
+      left: 50%
+      transform: translateX(-50%)
+      width: 26px
+      height: 26px
+      border-radius: 100%
+      background-color: #000000
+      &:hover
+        background-color: #bd4040
+      &:before
+         content: ''
+         display: block
+         width: 14px
+         height: 2px
+         background-color: #fff
+      &:after
+         content: ''
+         display: block
+         position: absolute
+         left: 50%
+         transform: translateX(-50%)
+         width: 2px
+         height: 14px
+         background-color: #fff 
+      &:hover
+        &::before, &::after
+          background-color: #cfdb22
+          
+          
+        
+      
+        
+    
